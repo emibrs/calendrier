@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lato:wght@100;300;400&family=Poppins:wght@100;200;400;500&family=Smooch&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body {
+    background-color: rgba(199, 82, 24, 0.645);
+}
+
+.calendar {
+    padding: 20px 40px;
+}
+.calendar-header {
+    background-color: rgba(255, 255, 255, 0.831);
+}
+
+.months-container {
+    justify-content: center;
+    gap: 30px; 
+}
+.month-container {
+    background-color: rgba(255, 255, 255, 0.831);
+    min-width: 260px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 08);
+    border-radius: 3px;
+   
+}
+.prev span , .next span {
+    color :indianred ;
+}
+
+.year-title {
+    color: darksalmon;
+}
+.month-container table {
+    padding: 20px;
+
+}
+.month-title {
+    color: darksalmon;
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+   
+
+}
+table.month td.day .day-content:hover {
+    background-color: darksalmon !important;
+    color: white;
+}
